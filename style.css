@@ -4,56 +4,168 @@
     margin: 0;
 }
 
-/* les classes fonctionnels flex box*/
+h1,h3{
+    font-family: "Andada Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+p{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+h2{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.justify{
+    justify-self: center;
+}
+
+/*mon framework*/
+
+.btn{
+border-radius: 5px;
+color: #FBD784;
+padding: 5px 15px;
+display: inline-block;
+}
+
+.btn-primary{
+    font-size: 25px;
+}
+
+.btn-secondary{
+    font-size: 14px;
+}
+
+.container-1000 {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.margin-top-100{
+    margin-top: 100px;
+}
+
+/*FLEX BOT*/
+
+/* rendre flexible un parent = aligner ses enfants */
 
 .flex{
-display: flex;
-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 .space-between{
-justify-content: space-between
+    justify-content: space-between;
 }
 
 .space-around{
-justify-content: space-around; 
-}
-.space-evenly{
-justify-content: space-evenly;
+    justify-content: space-around;
 }
 
-.justify-center{
-justify-content: center;
-}
-
-.flex-end {
-justify-content: flex-end;
-}
-
-.flexs-start 
-
-.aligne-center {
+.align-center{
     align-items: center;
 }
 
-.align-end{
-    align-items: end;
-}
-
-.gap-12{
-    gap:12px;
-}
-
-/*les classes de largeur */
+/* CLASSE DE DIMENSIONS*/
 
 .w-100{
     width: 100%;
 }
 
+.w-50{
+    width: 50%;
+}
+
 .w-48{
     width: 48%;
+
 }
 
 .w-33{
     width: 33%;
+}
+
+.w-25{
+    width: 25%;
+}
+
+/*HEADER*/
+
+.logo{
+    width: 70px;
+}
+
+header ul{
+    list-style: none;
+}
+
+/* section HERO*/
+
+.sectionhero{
+    background-image: url(asset/banniere3.png);
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    background-position: center;
+
+    height: 100vh;
+}
+
+.sectionhero div{
+    text-align: center;
+}
+
+.sectionhero div p{
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+/* SECTION SERVICES*/
+
+.card{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.699);
+    border-radius: 20px;
+    padding: 20px;
+}
+.card h3{
+    margin-bottom: 20px;
+}
+
+.card p{
+    margin-bottom: 20px;
+}
+
+.margin-bottom{
+    margin-bottom: 40px;
+}
+
+.font-size{
+    font-size: 30px;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.listapucessuppr{
+    list-style: none;
+}
+
+.textdecoration{
+    text-decoration: none;
 }
