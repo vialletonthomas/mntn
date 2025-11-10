@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* les classes fonctionnels flex box*/
+
+.flex{
+display: flex;
+flex-wrap: wrap;
+}
+
+.space-between{
+justify-content: space-between
+}
+
+.space-around{
+justify-content: space-around; 
+}
+.space-evenly{
+justify-content: space-evenly;
+}
+
+.justify-center{
+justify-content: center;
+}
+
+.flex-end {
+justify-content: flex-end;
+}
+
+.flexs-start 
+
+.aligne-center {
+    align-items: center;
+}
+
+.align-end{
+    align-items: end;
+}
+
+.gap-12{
+    gap:12px;
+}
+
+/*les classes de largeur */
+
+.w-100{
+    width: 100%;
+}
+
+.w-48{
+    width: 48%;
+}
+
+.w-33{
+    width: 33%;
+}
