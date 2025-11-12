@@ -183,7 +183,7 @@ header ul{
 }
 
 .textdecoration{
-    text-decoration: none;
+    text-decoration:none;
 }
 
 .positionstatic{
@@ -191,3 +191,48 @@ header ul{
     width: 400px;
     height: 300px;
 }
+
+.bg-blue{
+    background-color: blue;
+}
+
+.header{
+background-position: center;
+height: 100vh;
+}
+
+.marginleft{
+    margin-left: 500px;
+}
+
+.marginright{
+    margin-right: 500px;
+}
+
+.position1paragraphe{
+    position: relative;
+    bottom: 400px;
+}
+
+.photochemin{
+    width: 722px;
+
+}
+
+p, h3, h1{
+    color: white;
+}
+
+.backgroundblack{
+    background-color: black;
+}
+
+.position2paragraphe{
+    width: 38%;
+    left: 50px;
+}
+
+.photomontagne{
+    width: 40%;
+}
+
